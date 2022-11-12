@@ -1,0 +1,130 @@
+h1 {
+    color: rebeccapurple;
+    text-align: center;
+    background: none;
+}
+
+
+*
+{
+    margin: 0;
+    font-family:'Franklin Gothic Medium';
+}
+
+li
+{
+    color: white;
+    text-decoration: None;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 1px 25px;
+    border-radius: 15px;
+}
+
+.welcome-photo
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+}
+
+.main
+{
+    background-color: moccasin;
+    color: black;
+}
+
+#about
+{
+    display: flex;
+    background-color: grey;
+    color: white;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding: 300px 200px;
+    margin: 0 auto;
+    margin-top: 10%;
+}
+.text
+{
+    font-size: large;
+}
+.photo
+{
+    float: right;
+}
+
+#projects
+{
+    text-align: center;
+    color: black;
+    background-color: white;
+    padding: 150px 0px;
+}
+.info
+{
+    display: grid;
+    grid-template-columns: 100px 34%;
+    grid-template-rows: 80px auto 80px;
+    column-gap: 500px;
+    row-gap: 200px;
+    align-items: center;
+    justify-content: center;
+    padding: 150px 200px;
+}
+.project-button
+{
+    border-radius: 15px;
+    transition: transform .4s;
+}
+.project-button:hover
+{
+    transform: scale(1.05);
+}
+
+.nav-links
+{
+    
+    justify-content: center;
+    transition: transform .4s;
+}
+.nav-links:hover
+{
+    transform: scale(1.05);
+}
+
+footer
+{
+    padding-left: 75%;
+    padding-bottom: 3%;
+}
+
+
+/*-- Portfolio --*/
+
+#portfolio-content
+{
+    display:flex;
+    background-color: #088391;
+    color: white;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding: 50px 400px;
+    margin: 0 auto;
+    margin-top: 5%;
+    margin-bottom: 1%;
+}
+.portfolio-text
+{
+    font-size: large;
+}
+.maquette-photo
+{
+    float: right;
+    margin-right: 10px;
+}
